@@ -1,11 +1,12 @@
-
-const ItemList = ({apellido, saludo}) => {
+const ItemList = ({ usuario }) => {
   return (
     <div>
-        <h1>{apellido}</h1>
-        <h2>{saludo}</h2>
+      <h2>
+        Hola {usuario}. Bienvenido o bienvenida a la tienda Online de este
+        pryecto eterno!
+      </h2>
     </div>
-  )
-}
+  );
+};
 
-export default ItemList
+export default ItemList;

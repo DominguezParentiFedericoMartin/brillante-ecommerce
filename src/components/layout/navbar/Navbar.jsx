@@ -1,5 +1,6 @@
-import CartWidget from "../../common/cartWidget/CartWidget";
+import MaterialComponents from "../../pages/material/MaterialComponents";
 import "./Navbar.css";
+import NavButtons from "../../common/cartWidget/NavButtons";
 const Navbar = () => {
   return (
     <div className="navContainer">
@@ -8,14 +9,11 @@ const Navbar = () => {
         alt="logo"
         className="logo"
       ></img>
-
-      <ul className="containerCategories">
-        <li>Todas</li>
-        <li>Deportivas</li>
-        <li>Urbanas</li>
-      </ul>
-
-      <CartWidget />
+      <h1 className="titulo">
+        Club Social y Polideportibo Brillanté: Tienda Online Oficial
+      </h1>
+      <NavButtons />
+      <MaterialComponents />
     </div>
   );
 };
