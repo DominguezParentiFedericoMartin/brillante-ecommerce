@@ -1,8 +1,4 @@
-
-
-const Home = ( {nombre, userName, setUserName, contador, sumar} ) => {
-
-
+const Home = ({ nombre, userName, setUserName, contador, sumar }) => {
   return (
     <div style={{ padding: "0 20px" }}>
       <h1>Hola {nombre} </h1>

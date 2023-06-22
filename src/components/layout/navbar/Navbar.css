@@ -1,14 +1,20 @@
-.navContainer{
-    width: 100%;
-    background-color: steelblue;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navContainer {
+  width: 100%;
+  background-color: rgb(221, 255, 0);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.containerCategories{
-    display: flex;
-    list-style: none;
-    gap: 30px;
+.containerCategories {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 3px;
+  margin-left: 0px;
 }
