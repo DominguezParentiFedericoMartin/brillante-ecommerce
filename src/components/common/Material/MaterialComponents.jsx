@@ -1,5 +1,5 @@
 import { Badge } from "@mui/material";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { ShoppingCartIcon } from "@mui/icons-material/ShoppingCart";
 const MaterialComponents = () => {
   return (
     <div style={{ padding: "100px" }}>

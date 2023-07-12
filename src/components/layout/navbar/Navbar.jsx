@@ -1,4 +1,4 @@
-import MaterialComponents from "../../pages/material/MaterialComponents";
+import MaterialComponents from "../../common/Material/MaterialComponents";
 import "./Navbar.css";
 import NavButtons from "../../common/cartWidget/NavButtons";
 const Navbar = () => {

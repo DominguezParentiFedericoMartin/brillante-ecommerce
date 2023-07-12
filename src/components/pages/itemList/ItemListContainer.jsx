@@ -13,7 +13,7 @@ const ItemListContainer = () => {
     tarea.then((res) => setItems(res)).catch((err) => console.log(err));
     //.finally(() => console.log("hola"));
   }, []);
-  return <ItemList usuario={usuario} items={items} />;
+  return <ItemList items={items} />;
 };
 
 export default ItemListContainer;
