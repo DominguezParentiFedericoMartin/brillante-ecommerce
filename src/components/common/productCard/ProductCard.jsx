@@ -5,7 +5,7 @@ import {
   CardContent,
   Typography,
   CardActions,
-} from "@mui/material";
+} from "../../../../node_modules/@mui/material";
 const ProductCard = ({ item }) => {
   return (
     <Card sx={{ Width: 345 }}>
