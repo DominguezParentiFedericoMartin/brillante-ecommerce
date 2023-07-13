@@ -9,14 +9,14 @@ import {
 import { Link } from "react-router-dom";
 const ProductCard = ({ item }) => {
   return (
-    <Card sx={{ Width: 345 }}>
-      <CardMedia sx={{ height: 140 }} image={item.img} title="green iguana" />
+    <Card sx={{ Width: "5%" }}>
+      <CardMedia sx={{ height: 100 }} image={item.img} title="green iguana" />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {item.tittle}
+          {item.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {item.description}
+        <Typography gutterBottom variant="h6" component="div">
+          ${item.price}
         </Typography>
       </CardContent>
       <CardActions>
