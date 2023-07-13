@@ -1,6 +1,5 @@
 import CounterContainer from "../../common/Counter/counterContainer";
-
-const ItemDetail = ({ product, agregarAlCarrito }) => {
+function ItemDetail({ product, agregarAlCarrito }) {
   return (
     <div>
       <h4>{product.title}</h4>
@@ -12,6 +11,6 @@ const ItemDetail = ({ product, agregarAlCarrito }) => {
       />
     </div>
   );
-};
+}
 
 export default ItemDetail;

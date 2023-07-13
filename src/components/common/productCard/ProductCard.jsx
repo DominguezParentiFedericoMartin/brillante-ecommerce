@@ -6,6 +6,7 @@ import {
   Typography,
   CardActions,
 } from "../../../../node_modules/@mui/material";
+import { Link } from "react-router-dom";
 const ProductCard = ({ item }) => {
   return (
     <Card sx={{ Width: 345 }}>
@@ -19,9 +20,11 @@ const ProductCard = ({ item }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" variant="contained">
-          Ver detalle
-        </Button>
+        <Link to={`/itemDetail/${item.id}`}>
+          <Button size="small" variant="contained">
+            Ver detalle
+          </Button>
+        </Link>
       </CardActions>
     </Card>
   );

@@ -32,7 +32,7 @@ export const products = [
     price: 15000,
     stock: 4,
     description: "descripción",
-    category: "conmemorativas",
+    category: "conmemorativa",
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/conmemorativa2_po4ars.jpg",
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     price: 15000,
     stock: 4,
     description: "descripción",
-    category: "conmemorativas",
+    category: "conmemorativa",
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/conmemorativa3_h7utuj.jpg",
   },
   {
@@ -50,7 +50,7 @@ export const products = [
     price: 15000,
     stock: 4,
     description: "futbolsda",
-    category: "conmemorativas",
+    category: "conmemorativa",
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/conmemorativa1_rovasl.jpg",
   },
 ];
