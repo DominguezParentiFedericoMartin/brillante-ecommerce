@@ -1,7 +1,6 @@
 import MaterialComponents from "../../common/Material/MaterialComponents";
 import "./Navbar.css";
 import NavButtons from "../../common/cartWidget/NavButtons";
-import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
@@ -20,7 +19,6 @@ const Navbar = () => {
         <NavButtons />
         <MaterialComponents />
       </div>
-      <Outlet />
     </div>
   );
 };
