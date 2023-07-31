@@ -17,6 +17,7 @@ const Navbar = () => {
           Club Social y Polideportibo Brillanté: Tienda Online Oficial
         </h1>
         <NavButtons />
+        <Link to={"/dashboard"}>Admin</Link>
         <MaterialComponents />
       </div>
     </div>

@@ -1,6 +1,5 @@
 export const products = [
   {
-    id: 31,
     title: "Camiseta Titular",
     price: 15000,
     stock: 4,
@@ -9,7 +8,6 @@ export const products = [
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/Futbol1_v02i6v.jpg",
   },
   {
-    id: 2,
     title: "Camiseta Alternativa",
     price: 15000,
     stock: 10,
@@ -18,7 +16,6 @@ export const products = [
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/Futbol2_vve2dd.jpg",
   },
   {
-    id: 3,
     title: "Camiseta Arquero",
     price: 10000,
     stock: 2,
@@ -27,7 +24,6 @@ export const products = [
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429517/Brillant%C3%A9/Futbol3_hfeowh.jpg",
   },
   {
-    id: 4,
     title: "Titular Conmemorativa",
     price: 20000,
     stock: 7,
@@ -36,7 +32,6 @@ export const products = [
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/conmemorativa3_h7utuj.jpg",
   },
   {
-    id: 5,
     title: "Alternativa Conmemorativa",
     price: 20000,
     stock: 8,
@@ -45,7 +40,6 @@ export const products = [
     img: "https://res.cloudinary.com/dqpkwwzdz/image/upload/v1688429516/Brillant%C3%A9/conmemorativa2_po4ars.jpg",
   },
   {
-    id: 6,
     title: "Conmemorativa Futbol Champagne",
     price: 25000,
     stock: 6,
