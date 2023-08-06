@@ -2,7 +2,9 @@ import MaterialComponents from "../../common/Material/MaterialComponents";
 import "./Navbar.css";
 import NavButtons from "../../common/cartWidget/NavButtons";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
+  let userRol = "admin";
   return (
     <div>
       <div className="navContainer">
@@ -17,7 +19,7 @@ const Navbar = () => {
           Club Social y Polideportibo Brillanté: Tienda Online Oficial
         </h1>
         <NavButtons />
-        <Link to={"/dashboard"}>Admin</Link>
+        {userRol === "admin" && <Link to={"/dashboard"}>Admin</Link>}
         <MaterialComponents />
       </div>
     </div>

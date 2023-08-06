@@ -30,9 +30,5 @@ export const routes = [
     path: "/checkout",
     Element: COContainer,
   },
-  {
-    id: "dashboard",
-    path: "/dashboard",
-    Element: dashboard,
-  },
+  ,
 ];

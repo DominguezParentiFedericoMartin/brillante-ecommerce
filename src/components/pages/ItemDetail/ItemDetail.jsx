@@ -3,6 +3,7 @@ function ItemDetail({ product, agregarAlCarrito, canttidadEnCarrito }) {
   return (
     <div>
       <h4>{product.title}</h4>
+      <h5>{product.description}</h5>
       <h6>{product.price}</h6>
 
       <CounterContainer
